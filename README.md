@@ -1,6 +1,6 @@
 # nuxt-demo
 
-> My posh Nuxt.js project
+> nuxt-demo
 
 ## Build Setup
 
