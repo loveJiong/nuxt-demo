@@ -68,6 +68,11 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+    },
+    styleResources: {
+      scss: './assets/css/variables.scss',
+      options: {
+      }
     }
   }
 }
