@@ -42,8 +42,12 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/style-resources',
   ],
+  styleResources: {
+    sass: ['./assets/css/index.scss']
+  },
   /*
   ** Axios module configuration
   */
@@ -67,11 +71,6 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
-      }
-    },
-    styleResources: {
-      scss: './assets/css/variables.scss',
-      options: {
       }
     }
   }

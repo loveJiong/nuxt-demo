@@ -6,17 +6,11 @@
         nuxt-demo
       </h1>
       <h2 class="subtitle">
-        nuxt-demo
+        基础和特性demo
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+        <nuxt-link class="button--green" to="/demo/ssr">异步数据</nuxt-link>
+        <nuxt-link class="button--green" to="/demo/meta">动态meta标签</nuxt-link>
       </div>
     </div>
   </section>
@@ -35,6 +29,7 @@
 <style>
 
   .container {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
