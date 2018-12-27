@@ -16,7 +16,6 @@
 </template>
 
 <script>
-
   export default {
     layout: 'layouts-demo',
     data() {

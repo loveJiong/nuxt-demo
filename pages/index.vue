@@ -11,6 +11,7 @@
       <div class="links">
         <nuxt-link class="button--green" to="/demo/ssr">异步数据</nuxt-link>
         <nuxt-link class="button--green" to="/demo/meta">动态meta标签</nuxt-link>
+        <nuxt-link class="button--green" to="/demo/middleware">中间件</nuxt-link>
       </div>
     </div>
   </section>
